@@ -311,7 +311,7 @@ RESULT:
 - Simple models + strong reasoning outperform complexity
 
 
-## ◼️ Conclusions 📌
+## ◼️ Project Conclusions 🧭
 
 
 - Due to the limited size and structure of the dataset, linear regression was selected as the most appropriate and interpretable modeling approach for this problem.
@@ -323,4 +323,8 @@ RESULT:
   1. The estimated value represents a scenario-based projection, not a precise forecast.
 
   2. The extrapolation assumes continued growth in CT scanners, MRI units, and hospital beds, which may not hold in practice, as such investments depend on external factors such as government policy and funding decisions.
+
+
+## ◼️ Recommendation 💡
+⭐ Using ChatGPT as a data analytics copilot is highly recommended for speeding up the workflow, especially during data understanding, cleaning, and exploratory analysis. By offloading repetitive and boilerplate tasks, it frees up time to focus on deeper thinking—such as selecting meaningful features, questioning assumptions, and carefully evaluating the predictive model. When used critically, ChatGPT becomes a strong productivity booster rather than a replacement for analytical judgment.
  
