@@ -129,6 +129,8 @@ hospital_stay imputed by location-year mean
 🔥 Best fit for your dataset type
 ```
 
+This allows us to quickly identify which parts of the dataset require cleaning or reframing, as well as where null values may need to be filled or removed to improve analysis quality.
+
 ### **Exploratory Data Analysis**
 #### Prompt example ->
 ```
@@ -151,6 +153,8 @@ Why
 
 “Are hospital stays decreasing over time as investment increases?”
 ```
+
+This provides a brief understanding of which variables can be analyzed, which items are under study, and how certain variables depend on others in order to later predict behavior.
 
 ### **Feature Engineering**
 #### Prompt example ->
@@ -178,6 +182,8 @@ Hypothesis: more MRI → faster diagnosis → ↓ LOS
 🔹Correlated with wealth → confounding
 ```
 
+This helps us identify which variables should be taken into account and which should be discarded based on the quantity and quality of the information.
+
 ### **Length of Stay Prediction Model**
 #### Prompt example ->
 ```
@@ -197,6 +203,7 @@ Hypothesis: more MRI → faster diagnosis → ↓ LOS
 ➡️ This is a continuous outcome → regression, not classification.
 ```
 
+This allows us to ask relevant questions and consider which models are best suited to make predictions based on the selected information.
 
 ## ◼️ Results 📈
 In the results section, the two notebooks worth highlighting are Exploratory Data Analysis and Length of Stay Prediction Model, as these are where the data is actively analyzed and the hospital length of stay is predicted.
