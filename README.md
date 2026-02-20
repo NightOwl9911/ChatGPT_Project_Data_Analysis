@@ -82,6 +82,8 @@ Build and evaluate a simple, interpretable predictive model.
 - I'm a data analyst studying a dataset for Healthcare Investments and Length of Hospital Stay.
 - Based on these column names and data types, explain what each variable likely represents and which ones may be important for analysis from the dataset uploaded.
 ```
+
+#### Analysis example ->
 ```
 🛏️ **Hospital_Stay** -  (float64)
 
