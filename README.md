@@ -1,4 +1,4 @@
-# 🏥 Using ChatGPT as a Data Analytics Copilot (Healthcare)
+# <p align="center">🏥 Using ChatGPT as a Data Analytics Copilot (Healthcare)
 ## ◼️ Project Goal & Motivation 🎯
 
 The primary goal of this project is to demonstrate how to use **ChatGPT** effectively as a Data Analytics Copilot throughout a complete healthcare analytics workflow.
@@ -15,7 +15,7 @@ Rather than replacing analytical thinking, **ChatGPT** is used to:
 
 5. Support decision-making while keeping the analyst fully in control.
 
-This project is inspired by **Luke Barousse’s** course on using **ChatGPT** for Data Analytics, where **ChatGPT** is positioned as a thinking partner, not a shortcut.
+This project is inspired by **Luke Barousse’s** course on using **ChatGPT** for Data Analytics, where **ChatGPT** is positioned as a thinking partner, not a shortcut. You can find his course here -> [ChatGPT For Data Analysis](https://www.youtube.com/watch?v=8qWtU51lxpM)
 
 ## ◼️ How ChatGPT Is Used (Copilot Mindset) 🧠
 ChatGPT is used deliberately and transparently across the project to:
@@ -45,7 +45,7 @@ One goal of this course is how to form good prompts as it impacts directly on th
 
 ## ◼️ Data Source 📂
 
-The dataset was sourced from Kaggle and selected to support an analysis of Hospital Length of Stay. According to its description, the data originates from the OECD database, which limits coverage to OECD member countries, and spans the period 1990 to 2018.
+The dataset was sourced from Kaggle and selected to support an analysis of Hospital Length of Stay. According to its description, the data originates from the OECD database, which limits coverage to OECD member countries and spans the period from 1990 to 2018. While the dataset description does not explicitly specify licensing or ownership details, the data is most likely provided by the OECD.
 
 <p align="center">
   <a href="https://www.kaggle.com/datasets/babyoda/healthcare-investments-and-length-of-hospital-stay">-> Dataset <-</a>
@@ -206,9 +206,17 @@ This helps us identify which variables should be taken into account and which sh
 This allows us to ask relevant questions and consider which models are best suited to make predictions based on the selected information.
 
 ## ◼️ Results 📈
-In the results section, the two notebooks worth highlighting are Exploratory Data Analysis and Length of Stay Prediction Model, as these are where the data is actively analyzed and the hospital length of stay is predicted.
+In the results section, the two notebooks worth highlighting are Exploratory Data Analysis and Length of Stay Prediction Model, as these are where the data is actively analyzed and hospital length of stay is predicted.
 
-For this project we specifically analyze the information in Australia, here are the results:
+The analysis focuses specifically on how Length of Stay relates to variables that reflect healthcare investment, with the goal of understanding whether infrastructure and resources have a measurable impact. Based on the available data, the investment-related variables analyzed were:
+
+1. MRI units
+
+2. CT scanners
+
+3. Hospital beds
+
+For this project, the analysis is narrowed down to Australia to better isolate patterns and make the results easier to interpret. Below are the key results from this analysis.
 
 ### **Exploratory Data Analysis**
 To identify which variables may influence length of stay, we focus on Australia as a case study to better understand the patterns in the data. Below are the plots generated from this analysis.
